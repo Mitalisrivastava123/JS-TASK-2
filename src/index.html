@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <form method="post" class="helloform">
+        <label class="proid">Product Id</label>
+        <input type="number" min="0" name="productid" class="form3" id="productid" oninput="this.value = 
+        !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null"  required><br>
+        <label class="proid">Product Name</label>
+        <input type="text" name="productname" class="form1" id="productname" required><br>
+        <label class="proid">Product Price</label>
+        <input type="number" min="0" name="productprice" class="form4" id="productprice" oninput="this.value = 
+        !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null" required>
+        <br>
+        <button type="button" onclick="funct()" class="button1">ADD PRODUCT</button>
+        <p id="table"></p>
+    </form>
+    <script src="./script.js"></script>
 </body>
+
 </html>

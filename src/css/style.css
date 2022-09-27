@@ -1,0 +1,51 @@
+.form1 {
+    padding: 7px;
+    margin: 10px;
+    margin-left: 5%;
+}
+
+.form3 {
+    margin-left: 93px;
+    padding: 7px;
+}
+
+.form4 {
+    margin-left: 69px;
+    padding: 7px;
+}
+
+.helloform {
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.button1 {
+    padding: 20px;
+    width: 19%;
+    margin-top: 40px;
+    border: 3px solid black;
+    background: #fff;
+    font-size: 16px;
+}
+
+th {
+    padding: 30px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+td {
+
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    position: relative;
+    right: 80px;
+    width: 791px;
+}
+
+.proid {
+    font-family: sans-serif;
+}
